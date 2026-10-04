@@ -2,12 +2,15 @@
 
 클로드코드가 작업한 **v5 재단서식 최종본(24장)**과 최신 로컬 웹페이지를 기준으로 한 공개 성과보고 사이트입니다.
 
-**웹페이지:** https://sysmetrix.github.io/AX_Challenger_2026/
+**웹페이지:** https://axchallenger2026.vercel.app/
 
 ## 배포 구조
 
+- Vercel: 저장소 최상위를 프로젝트 루트로 유지하며 `vercel.json`의 `outputDirectory: docs`로 웹파일만 게시합니다. Framework Other, 빌드·설치 명령 없이 정적 배포합니다. GitHub main 변경 시 연결된 Vercel 프로젝트가 갱신됩니다.
+- 기본 주소 `/`에서 바로 열립니다. 이전 `/docs/index.html`·`/index.html` 주소는 `/`로 이동하고 `/docs/` 아래 자산 주소는 루트 자산 주소로 이동합니다.
+
 - `docs/`: 실제 웹페이지 전체. HTML·CSS·JavaScript, 재단 그래픽, KoPub 돋움, 도식 10종, 시연 영상 2편, 문서 다운로드 5종을 포함합니다.
-- GitHub Pages 게시 소스: **main 브랜치 /docs 폴더**. `.nojekyll`로 정적 파일을 그대로 게시합니다.
+- 기존 GitHub Pages 게시 소스: **main 브랜치 /docs 폴더**. `.nojekyll`로 정적 파일을 그대로 게시합니다. 기존 주소는 https://sysmetrix.github.io/AX_Challenger_2026/ 입니다.
 - `SOURCE_SNAPSHOT.json`: 복사한 원본 파일의 SHA-256과 v5 기준을 기록합니다. 기존 `v4.js` 파일명은 이전부터 사용한 모듈 이름이며 v5의 4주 바이브 코딩 과정과 v5 발표자료를 함께 반영합니다.
 - `tools/serve.mjs`: GitHub Pages의 프로젝트 경로를 재현하는 로컬 확인 서버입니다. Node로 실행하고 `http://127.0.0.1:8767/AX_Challenger_2026/`을 엽니다.
 - `tools/sync_site.py`: 최초 로컬 파일 복사·해시 대조 도구입니다. 기존 docs를 덮어쓰지 않습니다.
