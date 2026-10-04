@@ -1,0 +1,7 @@
+# Preserve the reviewed static assets byte-for-byte across platforms.
+* -text
+*.pptx binary
+*.docx binary
+*.webm binary
+*.ttf binary
+*.png binary
