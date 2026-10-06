@@ -24,7 +24,7 @@
 .section-head h2{letter-spacing:-.04em}
 .section-head{border-bottom:2px solid var(--purple);padding-bottom:22px}
 /* cover */
-.cover{max-width:none;margin:0;padding:0;border:0;background:#eef0f4 url('assets/brand/cover-bg.jpg') center bottom/100% auto no-repeat;aspect-ratio:3/2;max-height:1040px;display:flex}
+.cover{width:100%;max-width:none;margin:0;padding:0;border:0;background:#eef0f4 url('assets/brand/cover-bg.jpg') center bottom/100% auto no-repeat;aspect-ratio:3/2;max-height:1040px;display:flex}
 .cover-inner{width:100%;max-width:var(--max);margin:0 auto;padding:clamp(28px,4vw,64px) 0 0}
 .cover-meta{display:flex;justify-content:space-between;font-size:15px;color:var(--muted);font-weight:700}
 .cover-bar{display:block;width:84px;height:7px;background:var(--purple);margin:34px 0 22px}
