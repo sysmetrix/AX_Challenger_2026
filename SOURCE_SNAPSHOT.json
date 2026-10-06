@@ -1,10 +1,11 @@
 {
   "presentation_version": "v5",
   "source_files": {
-    "app.js": "80979893d8aa02e0267495524694523f9287156a4ef6785f8271e4f2234ccd04",
+    "app.js": "c3025c7f12e200e67c0e8de9dcbe296f97d85752a4be814ebe1203f7b6f1a1d8",
     "assets/brand/bwyf-logo.png": "db88db82ebc08fe7c1dd381e4154d32da648314f3f3c8c235f99ff3cc62706f3",
     "assets/brand/bwyf-symbol.png": "7c7c63d5aabf755ad28a63c0b3f678ff079fbfb88b7f03e413b8e807946f4870",
     "assets/brand/cover-bg.jpg": "d1f44fb333fbb50bf60e9825b2a8412ce0be2a40a8a80f4088a60e30a7550a5c",
+    "assets/brand/deck-cover.png": "a2611828066af119032f1675c65cef2b915ca9b429230f48f1cf5d43361bbe01",
     "assets/brand/divider-art.jpg": "c0afcf822aa21466eee3d75157a737843a6a05a1a9ca4a5c4cc56d9f1e3de255",
     "assets/diagrams/2026-1.svg": "815d8ae968b4812f5dc6803e60145cb47ae08efbe5e30443366a3d474b2a1cef",
     "assets/diagrams/2026-2.svg": "38bedf9cc5f4f712d7d790dc6c595998ddf8017466371235171bfb9b53c9bbb0",
@@ -19,7 +20,7 @@
     "assets/fonts/KoPubDotumBold.ttf": "a4af80d1f39298fb70c1cdd812dabe2f84000f1b02505563018198d035452977",
     "assets/fonts/KoPubDotumMedium.ttf": "ce44902b96ff9056c3718c6f5324ea6719409886cf1b30413ea896044904ba40",
     "assets/fonts/NOTICE.txt": "d02ccb95115bddafd1fab52d01ece68a62a234394b829acb286287c959e423dc",
-    "data.js": "02a35882edd831ed284af0c33f957dd5341eeadb2c6f06964d96f2601e0f2daa",
+    "data.js": "0ae0e48fbc5965b1fe704b98ef3f24bb60b90e01c4e5e60ca92afb8787e3a38b",
     "downloads/presentation.pdf": "0468a6ecf688c7cd1cb4144f8e423d2cb684a2d5f6cc504f8247edcb2d545ad1",
     "experience.js": "ea54199409fc394aca91d26055c74ce1404c46bfa38a03e6b51b8905e6d7753d",
     "index.html": "df79e76fb9d25b4e05bdd93f00f63da01f00578b5accc1d3c4222096368fd2d2",
@@ -29,7 +30,7 @@
     "media/safety-poster.png": "1d70b2c9382f4714408d1af982bc2149a22b7fc389df4af5aa02cd2ea61281f3",
     "media/safety.vtt": "020bda2049cd556f9bf9a9d725b08b31fc7b440d1fa926990c95531aff73ef46",
     "media/safety.webm": "1eab52f75232ea6079b788ac9da61855ae4641dd1699e754ab71521ca7906f16",
-    "styles.css": "ec20198d5d2f4bb8d6c86d11f7d7962fb51aabd50df8e07c0c0283206ed1b4e7",
+    "styles.css": "587906cc29818091885563108a2a252ee8acaccad70326a5e45ffe5d0d384120",
     "v4.js": "fc076490c54cd1d2f5d5f678101cfb778dd54036a5a018c5edc06544e0a93eef",
     "사용안내.md": "b6c42181aa4af29529a0e242297e3572d852542640e2d628c22f0654b957c14d"
   },
@@ -38,10 +39,11 @@
     "docs/사용안내.md"
   ],
   "deployed_files": {
-    "app.js": "80979893d8aa02e0267495524694523f9287156a4ef6785f8271e4f2234ccd04",
+    "app.js": "c3025c7f12e200e67c0e8de9dcbe296f97d85752a4be814ebe1203f7b6f1a1d8",
     "assets/brand/bwyf-logo.png": "db88db82ebc08fe7c1dd381e4154d32da648314f3f3c8c235f99ff3cc62706f3",
     "assets/brand/bwyf-symbol.png": "7c7c63d5aabf755ad28a63c0b3f678ff079fbfb88b7f03e413b8e807946f4870",
     "assets/brand/cover-bg.jpg": "d1f44fb333fbb50bf60e9825b2a8412ce0be2a40a8a80f4088a60e30a7550a5c",
+    "assets/brand/deck-cover.png": "a2611828066af119032f1675c65cef2b915ca9b429230f48f1cf5d43361bbe01",
     "assets/brand/divider-art.jpg": "c0afcf822aa21466eee3d75157a737843a6a05a1a9ca4a5c4cc56d9f1e3de255",
     "assets/diagrams/2026-1.svg": "815d8ae968b4812f5dc6803e60145cb47ae08efbe5e30443366a3d474b2a1cef",
     "assets/diagrams/2026-2.svg": "38bedf9cc5f4f712d7d790dc6c595998ddf8017466371235171bfb9b53c9bbb0",
@@ -56,7 +58,7 @@
     "assets/fonts/KoPubDotumBold.ttf": "a4af80d1f39298fb70c1cdd812dabe2f84000f1b02505563018198d035452977",
     "assets/fonts/KoPubDotumMedium.ttf": "ce44902b96ff9056c3718c6f5324ea6719409886cf1b30413ea896044904ba40",
     "assets/fonts/NOTICE.txt": "d02ccb95115bddafd1fab52d01ece68a62a234394b829acb286287c959e423dc",
-    "data.js": "02a35882edd831ed284af0c33f957dd5341eeadb2c6f06964d96f2601e0f2daa",
+    "data.js": "0ae0e48fbc5965b1fe704b98ef3f24bb60b90e01c4e5e60ca92afb8787e3a38b",
     "downloads/presentation.pdf": "0468a6ecf688c7cd1cb4144f8e423d2cb684a2d5f6cc504f8247edcb2d545ad1",
     "experience.js": "ea54199409fc394aca91d26055c74ce1404c46bfa38a03e6b51b8905e6d7753d",
     "index.html": "df79e76fb9d25b4e05bdd93f00f63da01f00578b5accc1d3c4222096368fd2d2",
@@ -66,7 +68,7 @@
     "media/safety-poster.png": "1d70b2c9382f4714408d1af982bc2149a22b7fc389df4af5aa02cd2ea61281f3",
     "media/safety.vtt": "020bda2049cd556f9bf9a9d725b08b31fc7b440d1fa926990c95531aff73ef46",
     "media/safety.webm": "1eab52f75232ea6079b788ac9da61855ae4641dd1699e754ab71521ca7906f16",
-    "styles.css": "ec20198d5d2f4bb8d6c86d11f7d7962fb51aabd50df8e07c0c0283206ed1b4e7",
+    "styles.css": "587906cc29818091885563108a2a252ee8acaccad70326a5e45ffe5d0d384120",
     "v4.js": "fc076490c54cd1d2f5d5f678101cfb778dd54036a5a018c5edc06544e0a93eef",
     "사용안내.md": "b6c42181aa4af29529a0e242297e3572d852542640e2d628c22f0654b957c14d"
   }
