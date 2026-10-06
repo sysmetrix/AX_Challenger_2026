@@ -41,7 +41,7 @@ function generateSafety(){
 selectDemo('finance');
 function renderDiagram(){
  let d=D.diagrams.find(x=>x.year===diagramYear&&x.index===+$('diagram-type').value);
- $('diagram-image').src=d.src;$('diagram-image').alt=(diagramYear==='2026'?'2026 자료 기반':'2027 설계 제안')+' AX 챌린저 '+d.title;$('diagram-download').href=d.src;$('diagram-text').textContent=d.text;$('diagram-caption').textContent=diagramYear==='2027'?'2027년 추가 설계 제안입니다. 확정 조직·운영 규모를 뜻하지 않습니다.':'2026년 자료 기반 도식입니다. 도식 안의 2027년 검토 영역은 현행과 구별합니다. 서비스 간 데이터 연동을 뜻하지 않습니다.';
+ $('diagram-image').src=d.src;$('diagram-image').alt=(diagramYear==='2026'?'2026 자료 기반':'2027 설계 제안')+' AX 챌린저 '+d.title;$('diagram-download').href=d.src;$('diagram-caption').textContent=diagramYear==='2027'?'2027년 추가 설계 제안입니다. 확정 조직·운영 규모를 뜻하지 않습니다.':'2026년 자료 기반 도식입니다. 도식 안의 2027년 검토 영역은 현행과 구별합니다. 서비스 간 데이터 연동을 뜻하지 않습니다.';
  document.querySelectorAll('[data-year]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.year===diagramYear))
 }
 document.querySelectorAll('[data-year]').forEach(b=>b.onclick=()=>{diagramYear=b.dataset.year;renderDiagram()});$('diagram-type').onchange=renderDiagram;renderDiagram();
